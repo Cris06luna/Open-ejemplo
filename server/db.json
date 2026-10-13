@@ -1,0 +1,57 @@
+{
+  "ci-nodes": [
+    {
+      "id": "node-us-east",
+      "name": "US East Regional Node",
+      "location": "N. Virginia, USA",
+      "maxStorageCapacityGb": 1000
+    },
+    {
+      "id": "node-eu-west",
+      "name": "EU West Regional Node",
+      "location": "Dublin, Ireland",
+      "maxStorageCapacityGb": 1500
+    },
+    {
+      "id": "node-ap-south",
+      "name": "Asia Pacific Node",
+      "location": "Mumbai, India",
+      "maxStorageCapacityGb": 500
+    }
+  ],
+  "repository-manifests": [
+    {
+      "id": "1",
+      "nodeId": "node-us-east",
+      "topic": "angular",
+      "repositoryId": 24195339,
+      "repositoryName": "angular-cli",
+      "fullName": "angular/angular-cli",
+      "stargazersCount": 27000,
+      "allocatedSizeGb": 350,
+      "registeredAt": "2026-10-12T14:32:01.000Z"
+    },
+    {
+      "id": "2",
+      "nodeId": "node-us-east",
+      "topic": "typescript",
+      "repositoryId": 43195200,
+      "repositoryName": "typescript-compiler",
+      "fullName": "microsoft/typescript",
+      "stargazersCount": 93000,
+      "allocatedSizeGb": 400,
+      "registeredAt": "2026-10-12T15:10:22.000Z"
+    },
+    {
+      "id": "3",
+      "nodeId": "node-eu-west",
+      "topic": "react",
+      "repositoryId": 10270250,
+      "repositoryName": "react-core",
+      "fullName": "facebook/react",
+      "stargazersCount": 210000,
+      "allocatedSizeGb": 800,
+      "registeredAt": "2026-10-12T16:05:45.000Z"
+    }
+  ]
+}
